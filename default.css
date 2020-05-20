@@ -1,0 +1,297 @@
+body {
+	background: #eee;
+	font: 14px Arial;
+}
+
+a {
+	color: #848faf;
+}
+
+strong {
+	color: #996;
+	font-weight: bold;
+}
+em {
+	color: #996;
+	font-style: italic;
+}
+
+#content p.comment {
+	margin-top: -5px;
+	color: #bbb;
+}
+#content p.comment a {
+	color: #b7bfcf;
+}
+
+/*** site arrangement ********************/
+
+#header, #container, #closing, #footer {
+	margin: 20px;
+	width: 820px;
+	clear: left;
+}
+
+#header {
+	margin-bottom: 0;
+}
+
+#container {
+	margin: 0 20px;
+	background: white;
+	overflow:auto;
+}
+
+#closing {
+	height: 6px;
+	margin: 0 20px;
+	background-color: #554;
+	border-radius: 0 0 6px 6px;
+}
+
+#footer {
+	margin-top: 10px;
+	text-align: left;
+	color: #aaa;
+}
+
+#content {
+	width: 600px;
+	margin: 0 10px;
+}
+
+#sidebar {
+	width: 200px;
+}
+
+#content, #sidebar {
+	float: left;
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+}
+
+/*** header & footer ********************/
+
+#header h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+#header h2 {
+	font-size: 1.5em;
+	color: #665;
+	margin-bottom: 15px;
+}
+#header ul {
+	overflow:auto;
+	color: white;
+	background-color: #554;
+	border-radius: 6px 6px 0 0;
+	padding: 0 20px;
+}
+#header li {
+	float: left;
+}
+#header a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 5px 15px;
+}
+#header a:hover {
+	background-color: #665;
+	color: white;
+}
+#header li.active a {
+	background-color: #776;
+	color: white;
+}
+
+#footer a {
+	float: right;
+}
+
+/*** sidebar ********************/
+
+#sidebar img {
+	width: 185px;
+	border-radius: 5px;
+	margin: 5px 5px 0 0;
+}
+
+#sidebar h1 {
+	font: bold 20px Arial;
+	margin: 15px 0 7px 0;
+}
+
+#sidebar h2 {
+	font: bold 14px Arial;
+	margin: 15px 0 7px 0;
+}
+
+#sidebar p.shortbio {
+	margin: 5px 0;
+}
+
+#sidebar ul.contact {
+	margin: 15px 0;
+}
+
+#sidebar ul.contact li.space{
+	margin: 15px 0;
+}
+
+#sidebar ul.contact img {
+	float: left;
+	width: 12px;
+	margin:1px 8px 0 0;
+}
+
+#sidebar ul.contact div {
+	float: left;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul.contact a {
+	width: 14px;
+	text-decoration: none;
+}
+
+#sidebar ul.contact li {
+	clear: left;
+	overflow: auto;
+	margin: 7px 0;
+}
+
+#sidebar ul.contact li.space{
+	margin: 14px 0 7px 0;
+}
+
+#sidebar ul.news li {
+	margin: 7px 0;
+}
+
+#sidebar ul.news span {
+	color: lightgray;
+	font: 12px Arial;
+}
+
+/*** content ********************/
+
+#content h1 {
+	font: bold 24px Arial;
+	margin: 5px 0 10px 0;
+}
+
+#content h2 {
+	font: bold 18px Arial;
+	margin: 15px 0 5px 0;
+}
+
+#content h3 {
+	color: black;
+	font: 16px Arial;
+	margin: 15px 0 5px 0;
+	font-style: italic;
+}
+
+#content p {
+	margin: 7px 0;
+}
+
+#content .home h2 {
+	float: left;
+}
+
+#content .home h3 {
+	color: lightgray;
+	font: 12px Arial;
+	float: left;
+	margin: 17px 0 5px 0;
+	padding-left: 5px;
+}
+
+#content .home p {
+	margin: 0;
+}
+
+#content ul li {
+	margin: 5px 0;
+}
+
+#content dl dt {
+	float:left;
+	width:100px;
+	font-weight: bold;
+}
+
+#content ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	padding-left: 20px;
+}
+
+#content ul.home {
+	list-style-type: none;
+	list-style-position: outside;
+	padding: 0;
+}
+
+#content .publications li {
+	margin: 10px 0;
+}
+
+#content .projects li {
+	margin: 10px 0;
+}
+
+#content .projects h3 {
+	font: bold 14px Arial;
+	margin: 0;
+	color: black;
+}
+
+#content .publications .btns {
+	display: none;
+}
+
+#content .publications li:hover .dotdotdot {
+	display: none;
+}
+
+#content .publications li:hover .btns {
+	display: inline;
+}
+
+#content .abstract,
+#content .bibtex {
+	display: none;
+	color: black;
+	background: #ccb;
+	border: 1px dotted gray;
+  	border-radius: 5px;
+  	margin: 5px 0;
+  	padding: 2px 5px;
+ }
+
+ #content .bibtex {
+ 	white-space: pre-wrap;
+ 	font: 10px Courier;
+ }
+
+#content .abstract p,
+#content .bibtex p {
+	margin: 5px 2px;
+}
+
+#content .btn {
+  background: white;
+  color: grey;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 0.7em;
+  padding: 1px 4px;
+  text-decoration: none;
+}
